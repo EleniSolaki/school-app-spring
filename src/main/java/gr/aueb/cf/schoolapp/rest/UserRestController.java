@@ -21,6 +21,9 @@ import java.net.URI;
 import java.util.ArrayList;
 import java.util.List;
 
+/*swagger:
+/http://localhost:8080/swagger-ui/index.html
+*/
 @RestController
 @RequestMapping("/api")
 public class UserRestController {

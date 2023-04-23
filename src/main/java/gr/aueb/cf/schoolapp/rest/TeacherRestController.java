@@ -30,6 +30,7 @@ import java.util.List;
 import java.util.Locale;
 
 @RestController
+@CrossOrigin(origins = "http://localhost:4200")
 @RequestMapping("/api")
 public class TeacherRestController {
 
